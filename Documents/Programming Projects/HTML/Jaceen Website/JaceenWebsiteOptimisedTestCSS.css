@@ -1,0 +1,392 @@
+/* Global styles */
+* {
+    font-family: Helvetica !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* ................ BANNER CSS ................ */
+  
+  main {
+    background-color: #ffffff;
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    margin-top: 15vh;
+  }
+  
+  .banner video {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: cover;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-content h1 {
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  
+  .banner-content p {
+    font-size: 1.5vw;
+  }
+
+  .WhoAreWe {
+    text-align: center;
+    background-color: #e9e9e9;
+    color: #000000;
+    padding: 100px;
+  }
+  
+  /* .................. SECTION UNDER BANNER - HOME ABOUT US ................... */
+  
+  .AboutUsImage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 8vw;
+  }
+  
+  .AboutUsImage img {
+    width: 50vw;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  /* .................. SECTION UNDER HOME ABOUT US - VALUES ................... */
+  
+  .section-container {
+    display: flex;
+    width: 100%;
+    height: 500px; /* Replace with your desired height */
+  }
+  
+  .image-square,
+  .text-square {
+    width: 100%;
+  }
+
+
+  
+  .image-square {
+    background-color: #f2f2f2; /* Replace with your desired background color */
+  }
+  
+  .image-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-square {
+    background-color: #e9e9e9; /* Replace with your desired background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw;
+  }
+  
+  .text-square h2,
+  .text-square p {
+    text-align: center;
+  }
+
+  .text-square h2 {
+    font-size: 30px;
+  }
+
+  .text-square p {
+    font-size: 16px;
+  }
+  
+  /* .................. SECTION UNDER VALUES - TESTIMONIALS 1 ................... */
+  
+  .testimonial-container,
+  .testimonial-container2,
+  .testimonial-container3, .testimonial-container4, .testimonial-container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonial {
+    text-align: center;
+    margin: 2vw;
+    padding: 2vw;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 40vw;
+  }
+  
+  .testimonial img {
+    width: 10vw;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial h3 {
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p {
+    font-size: 12px;
+  }
+  
+  /* ................ GALLERY PAGE ................ */
+
+  .GallerySection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+    
+  .GallerySection img {
+    max-width: 30vw;
+    max-height: 30vw;
+    margin: 1vw;
+  }
+  
+  /*................... CONTACT FORM ..................... */
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2vw;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 1vw;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 1vw;
+    margin-bottom: 2vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  select {
+    height: 4vh;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 1vw;
+    margin-bottom: 2vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 1vw;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 2vw;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
+  }
+  
+
+  /*................... Camp Landing Page ..................... */
+
+  .section-container2 {
+    display: flex;
+    width: 100%;
+    height: 500px; /* Replace with your desired height */
+  }
+  
+  .image-square2,
+  .text-square2 {
+    width: 100%;
+  }
+  
+  .image-square2 {
+    background-color: #f2f2f2; /* Replace with your desired background color */
+  }
+  
+  .image-square2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-square2 {
+    background-color: #e9e9e9; /* Replace with your desired background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw;
+  }
+  
+  .text-square2 h2,
+  .text-square2 p {
+    text-align: center;
+  }
+  
+  
+
+
+  /* ................ BREAK BETWEEN BODY CSS AND HEADER CSS ................ */
+  
+  /* Header styles */
+  header {
+    background-color: black;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .logo img {
+    height: 7vh;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 2vw;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: gold;
+  }
+  
+  /* ................ BREAK BETWEEN HEADER CSS AND FOOTER CSS ................ */
+  
+  /* Footer styles */
+  footer {
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vw;
+  }
+  
+  .footer-column {
+    flex-basis: 33.33%;
+  }
+  
+  .footer-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h3 {
+    color: hsl(45, 50%, 45%);
+    margin-bottom: 1vw;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.5vw;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin-right: 1vw;
+  }
+  
+  .footer-bottom {
+    color: hsl(45, 50%, 45%);
+    color: rgb(255, 255, 255);
+    padding: 1vw 0;
+  }
+  
+  .social-links img {
+    width: 2vw; /* Adjust the width as per your preference */
+    height: 2vw; /* Adjust the height as per your preference */
+  }
+  

@@ -23,12 +23,12 @@
     position: relative;
     width: 100%;
     margin-top: 15vh;
+    overflow: hidden; /* Ensure the video doesn't overflow the container */
   }
   
   .banner video {
     width: 100%;
-    height: auto;
-    max-height: 80vh;
+    height: 100%;
     object-fit: cover;
   }
   
@@ -49,6 +49,7 @@
   .banner-content p {
     font-size: 1.5vw;
   }
+  
 
   .WhoAreWe {
     text-align: center;

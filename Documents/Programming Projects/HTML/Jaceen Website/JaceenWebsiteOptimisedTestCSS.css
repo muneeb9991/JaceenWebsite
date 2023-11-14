@@ -50,6 +50,18 @@
     font-size: 1.5vw;
   }
 
+  /* Mobile styles */
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 100vh;
+  }
+
+  .banner-content h1,
+  .banner-content p {
+    font-size: 4vw; /* Adjust the font size for better readability on smaller screens */
+  }
+}
+
   .WhoAreWe {
     text-align: center;
     background-color: #e9e9e9;

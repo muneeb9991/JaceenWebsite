@@ -53,8 +53,10 @@
   /* Mobile styles */
 @media screen and (max-width: 767px) {
   .banner {
-    height: 100vh;
     width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: cover;
   }
 
   .banner-content h1,

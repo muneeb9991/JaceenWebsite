@@ -22,10 +22,6 @@
   .banner {
     position: relative;
     width: 100%;
-    /* Set the height to match the aspect ratio of the video (720/1280 * 100%) */
-    padding-top: 56.25%;
-    /* Other styles */
-    margin-top: 15vh;
   }
   
   .banner video {

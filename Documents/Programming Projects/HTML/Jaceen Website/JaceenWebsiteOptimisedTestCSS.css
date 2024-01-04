@@ -16,8 +16,11 @@
   /* ................ BANNER CSS ................ */
   
   main {
+    padding-top: 15vh; /* Add top padding equivalent to header's height */
     background-color: #ffffff;
+    /* Other styles */
   }
+  
   
   .banner {
     position: relative;

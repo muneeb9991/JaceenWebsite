@@ -22,13 +22,18 @@
   .banner {
     position: relative;
     width: 100%;
+    /* Set the height to match the aspect ratio of the video (720/1280 * 100%) */
+    padding-top: 56.25%;
+    /* Other styles */
     margin-top: 15vh;
   }
   
   .banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    max-height: 80vh;
+    height: 100%;
     object-fit: cover;
   }
   
@@ -49,6 +54,7 @@
   .banner-content p {
     font-size: 1.5vw;
   }
+  
 
   /* Mobile styles */
 @media screen and (max-width: 767px) {

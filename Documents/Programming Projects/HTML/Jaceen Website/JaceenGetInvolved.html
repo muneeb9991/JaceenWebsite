@@ -27,35 +27,40 @@
 
 <main>
 <body>
-  <div class="container">
-    <h2>Contact Form</h2>
-    <form action="#" method="POST">
-      <label for="fullname">Full Name:</label>
-      <input type="text" id="fullname" name="fullname" required>
-
-      <label for="number">Number:</label>
-      <input type="tel" id="number" name="number" required>
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="location">Closest City:</label>
-      <select id="City" name="location" required>
-            <option value="Select an option">Select an option</option>
-            <option value="London">London</option>
-            <option value="Birmingham">Birmingham</option>
-            <option value="Leeds">Leeds</option>
-      </select>
-
-      <label for="reason">Reason for Enquiry:</label>
-      <select id="reason" name="reason" required>
-        <option value="">Select an option</option>
-        <option value="youth-training-sessions">Youth Training Sessions</option>
-        <option value="mentoring">Mentoring</option>
-        <option value="camps">Domestic/international Camps</option>
-      </select>
-
-      <input type="submit" value="Submit">
+    <div class="container">
+        <h2>Contact Form</h2>
+        <form action="#" method="POST">
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required>
+    
+          <!-- Updated Phone Number Field -->
+          <label for="number">Number:</label>
+          <input type="tel" id="number" name="number" required pattern="(\+44\d{10})|(\d{11,})" title="Phone number must be at least 11 digits or start with +44 followed by 10 digits.">
+    
+          <!-- Updated Email Field -->
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="location">Closest City:</label>
+          <select id="City" name="location" required>
+                <option value="Select an option">Select an option</option>
+                <option value="London">London</option>
+                <option value="Birmingham">Birmingham</option>
+                <option value="Leeds">Leeds</option>
+          </select>
+    
+          <label for="reason">Reason for Enquiry:</label>
+          <select id="reason" name="reason" required>
+            <option value="">Select an option</option>
+            <option value="youth-training-sessions">Youth Training Sessions</option>
+            <option value="mentoring">Mentoring</option>
+            <option value="camps">Domestic/international Camps</option>
+          </select>
+          <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+      </body>
     </main>
 
 

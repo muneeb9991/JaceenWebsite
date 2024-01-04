@@ -16,15 +16,12 @@
   /* ................ BANNER CSS ................ */
   
   main {
-    padding-top: 0%; /* Add top padding equivalent to header's height */
     background-color: #ffffff;
-    /* Other styles */
   }
 
   @media screen and (max-width: 767px) {
     main {
-      padding-top: 0%; /* Adjust according to the mobile header height */
-      /* Other responsive styles */
+      
     }
   }
   
@@ -220,6 +217,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 10vw;
     margin-top: 10vw;
+    padding-top: 15vh;
   }
   
   h2 {

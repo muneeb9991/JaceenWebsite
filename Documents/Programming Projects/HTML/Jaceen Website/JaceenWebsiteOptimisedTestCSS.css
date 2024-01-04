@@ -20,6 +20,14 @@
     background-color: #ffffff;
     /* Other styles */
   }
+
+  @media screen and (max-width: 767px) {
+    main {
+      padding-top: 15vh; /* Adjust according to the mobile header height */
+      /* Other responsive styles */
+    }
+  }
+  
   
   
   .banner {

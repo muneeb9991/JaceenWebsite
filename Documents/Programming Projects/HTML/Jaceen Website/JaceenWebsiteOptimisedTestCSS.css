@@ -52,19 +52,25 @@
   
 
   /* Mobile styles */
-@media screen and (max-width: 767px) {
-  .banner {
-    width: 100%;
-    height: auto;
-    max-height: 80vh;
-    object-fit: cover;
+  @media screen and (max-width: 767px) {
+    .banner {
+      width: 100%;
+      height: 80vh; /* Adjust height to fill the space */
+      margin: 0; /* Ensure no margin is causing the space */
+    }
+  
+    .banner video {
+      width: 100%;
+      height: 80vh; /* Ensure video covers the area */
+      object-fit: cover; /* Maintain aspect ratio while covering the area */
+    }
+  
+    .banner-content h1,
+    .banner-content p {
+      font-size: 4vw; /* Adjust the font size for better readability on smaller screens */
+    }
   }
-
-  .banner-content h1,
-  .banner-content p {
-    font-size: 4vw; /* Adjust the font size for better readability on smaller screens */
-  }
-}
+  
 
   .WhoAreWe {
     text-align: center;

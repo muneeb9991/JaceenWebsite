@@ -16,20 +16,20 @@
   /* ................ BANNER CSS ................ */
   
   main {
-    padding-top: 15vh; /* Add top padding equivalent to header's height */
+    padding-top: 0%; /* Add top padding equivalent to header's height */
     background-color: #ffffff;
     /* Other styles */
   }
 
   @media screen and (max-width: 767px) {
     main {
-      padding-top: 15vh; /* Adjust according to the mobile header height */
+      padding-top: 0%; /* Adjust according to the mobile header height */
       /* Other responsive styles */
     }
   }
   
   
-  
+
   .banner {
     position: relative;
     width: 100%;
@@ -155,6 +155,10 @@
   
   /* .................. SECTION UNDER VALUES - TESTIMONIALS 1 ................... */
   
+.testimonial-main {
+  padding-top: 15vh;
+}
+
   .testimonial-container,
   .testimonial-container2,
   .testimonial-container3, .testimonial-container4, .testimonial-container5 {

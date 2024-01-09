@@ -1,6 +1,6 @@
 <?php
 // Database connection
-$conn = new mysqli("localhost", "root", "", "form_data");
+$conn = new mysqli("localhost", "root", "", "jaceen_contact_form_data");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }

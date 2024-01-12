@@ -208,16 +208,20 @@
   
   /*................... CONTACT FORM ..................... */
   
-  .form-container {
+.form-container {
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically if you have enough height */
     height: 100vh; /* Adjust height as needed */
+    width: 100%; /* Ensures the container takes full width */
 }
 
 iframe {
     border: none; /* Optional: removes the border around the iframe */
+    display: block; /* Ensures iframe is a block-level element for centering */
+    margin: auto; /* Adds auto margin to center the iframe in the flex container */
 }
+
 
   
   .footer {

@@ -208,65 +208,17 @@
   
   /*................... CONTACT FORM ..................... */
   
-  .container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 2vw;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10vw;
-    margin-top: 10vw;
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 1vw;
-    font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  select {
-    width: 100%;
-    padding: 1vw;
-    margin-bottom: 2vw;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  select {
-    height: 4vh;
-  }
-  
-  textarea {
-    width: 100%;
-    padding: 1vw;
-    margin-bottom: 2vw;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: vertical;
-  }
-  
-  input[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 1vw;
-    background-color: #4CAF50;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  }
+  .form-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically if you have enough height */
+    height: 100vh; /* Adjust height as needed */
+}
+
+iframe {
+    border: none; /* Optional: removes the border around the iframe */
+}
+
   
   .footer {
     background-color: #333333;

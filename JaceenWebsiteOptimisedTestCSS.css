@@ -167,7 +167,10 @@
 .testimonial-container9,
 .testimonial-container10,
 .testimonial-container11,
-.testimonial-container12 {
+.testimonial-container12,
+.testimonial-container13,
+.testimonial-container14,
+.testimonial-container15 {
     display: flex;
     justify-content: center;
     align-items: center;

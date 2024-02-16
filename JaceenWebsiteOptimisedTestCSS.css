@@ -170,7 +170,9 @@
 .testimonial-container12,
 .testimonial-container13,
 .testimonial-container14,
-.testimonial-container15 {
+.testimonial-container15,
+.testimonial-container16,
+.testimonial-container17 {
     display: flex;
     justify-content: center;
     align-items: center;
